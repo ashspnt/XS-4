@@ -2,7 +2,7 @@ name: XServer-Hotmail-VPS
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 1 */2 * *'
+    - cron: '17 3 */2 * *'
 jobs:
   run_xserver_renew:
     runs-on: ubuntu-latest
